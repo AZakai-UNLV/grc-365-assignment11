@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRC 365 | Assignment 11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Mrs+Saint+Delafield&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } body {
+        background: #292929;
+    } #page {
+        width: 100%;
+        max-width: 100%;
+        min-height: 1525px;
+        background: #292929;
+    } header {
+        background: black;
+        background-image: url("https://images.pexels.com/photos/14427031/pexels-photo-14427031.jpeg");
+        background-size: cover;
+        background-position: center;
+		background-repeat: no-repeat;
+        text-align: center;
+        padding: 50px;
+        color: whitesmoke;
+		position: relative;
+		overflow: hidden;
+    } h1 {
+        font: 84pt/1.4em "Mrs Saint Delafield", serif;
+        text-align: center;
+        margin: 27px 0 0 0;
+        color: whitesmoke;
+    } header p {
+        font: 14pt/1.4em "Gentium Book Plus", serif;
+        color: whitesmoke;
+    } main {
+        background: #292929;
+        padding: 40px 65px;
+    } main h2 {
+        font: bold 16pt/1.4em "Gentium Book Plus", serif;
+        text-align: center;
+        margin: 15px 0 25px;
+        color: whitesmoke;
+    } main p {
+        font: 14pt/1.6em "Yrsa", serif;
+        width: 100%;
+        max-width: 70ch;
+        margin: 36px auto;
+        color: whitesmoke;
+    } span.dropcap {
+        font: 48pt/1em "Mrs Saint Delafield", serif;
+        float: left;
+        margin: 0 24px -24px 0;
+        color: whitesmoke;
+    } p.callout {
+        font: 22pt/1.4em "Yrsa", serif;
+        text-align: center;
+        width: 100%;
+        max-width: 35ch;
+        margin: 36px auto;
+        padding: 24px;
+        color: whitesmoke;
+        border-top: 1px solid whitesmoke;
+        border-bottom: 1px solid whitesmoke;
+	} footer {
+        background: whitesmoke;
+        text-align: center;
+        padding: 32px;
+        color: #292929;
+    } footer p {
+        font: 14pt/1.6em "Yrsa", serif;
+        margin: 8px auto;
+	} .frankenstein {
+		width: 200px;
+		position: fixed;
+		cursor: move;
+	} .lightning-bolt {
+		position: absolute;
+		width: 60vw;
+		animation-name: boltFloat;
+		animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		filter: brightness(0) invert(1);
+	} @keyframes boltFloat {
+		0% {top: -200px; opacity: 0;} 
+		50% {top: -150px; opacity: 0.95;} 
+		100% {top: -200px; opacity: 0;}
+    } @media screen and (max-width: 750px) {
+        #page {
+            width: 100%;
+            max-width: 100%;
+            min-height: 100vh;
+            margin: 0 auto;
+        } header {
+            padding: 36px 20px;
+            background-size: cover;
+            background-position: center;
+        } h1 {
+            font-size: 14vw;
+            line-height: 1.5;
+            margin-top: 20px;
+		} header p {
+			font-size: 2.5vw;
+        } main h2 {
+            font-size: 18pt;
+            line-height: 1.7;
+            margin: 15px 0 25px;
+        } main p {
+            width: 100%;
+            max-width: 100%;
+            font-size: 16pt;
+            line-height: 1.9;
+            margin: 28px auto;
+        } span.dropcap {
+            font-size: 42pt;
+            line-height: 1.25;
+            margin: 0 24px 6px 0;
+        } footer {
+            padding: 24px 20px;
+		} .lightning-bolt {
+			width: 75vw;
+}
+</style>
+</head>
+
+<body>
+<div id="page">
+    <header>
+		<img class="lightning-bolt" src="https://static.vecteezy.com/system/resources/previews/060/359/801/non_2x/stunning-realistic-lightning-bolt-overlay-in-vibrant-pink-highlighting-energetic-atmosphere-electrifying-realistic-lightning-bolt-overlay-on-transparent-background-free-png.png" />
+        <h1>Frankenstein</h1>
+        <p>Mary Wollstonecraft Shelley</p>
+    </header>
+    <main>
+        <img class="frankenstein" src="449996-Frankenstein_1-10_01.png" />
+		<h2>CHAPTER V</h2>
+        <p><span class="dropcap">I</span>t was on a dreary night of November, that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.</p>
+        <p class="callout">“By the glimmer of the half-extinguished light, I saw the dull, yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs, ... <br> I rushed out of the room.”</p>
+        <p>How can I describe my emotions at this catastrophe, or how delineate the wretch whom with such infinite pains and care I had endeavoured to form? His limbs were in proportion, and I had selected his features as beautiful. Beautiful!—Great God! His yellow skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous black, and flowing; his teeth of a pearly whiteness; but these luxuriances only formed a more horrid contrast with his watery eyes, that seemed almost of the same colour as the dun white sockets in which they were set, his shrivelled complexion and straight black lips.</p>
+        <p>The different accidents of life are not so changeable as the feelings of human nature. I had worked hard for nearly two years, for the sole purpose of infusing life into an inanimate body. For this I had deprived myself of rest and health.</p>
+	</main>
+<script>
+   $(function(){
+	   $(".frankenstein").draggable();
+   }); 
+</script>
+	<footer>
+        <p>Frankenstein text courtesy of The Gutenberg Project.</p>
+        <p>Image courtesy of Wallace Chuck on Pexels.</p>
+    </footer>
+</div>
+</body>
+</html>
